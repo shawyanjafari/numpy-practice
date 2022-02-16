@@ -62,3 +62,9 @@ print(s.dot(t))  # you can even use matrix operations!
 
 # There is, however, an entire library for matrix functions, too
 # https://numpy.org/doc/stable/reference/routines.matlib.html#
+
+print("")
+
+# numpy also has built-in constants you can use:
+our_float_array = np.array([2.1, 2.5, np.nan], dtype='float16')
+print(our_float_array)
